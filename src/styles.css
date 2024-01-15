@@ -9,12 +9,13 @@ body{
   margin-right: 50px;
   padding: 15px;
   min-height: 200px;
+  width: 100%;
 }
-#historialContenedor>h3{
+#historialContenedor h3{
   color: white;
   font-weight: bold;
 }
-#historial>div{
+#historial div{
   border: 1px solid white;
   background-color: white;
   border-radius: 8px;
@@ -31,8 +32,9 @@ hr{
 #buscadorContenedor{
   display: inline-block;
   vertical-align: top;
+  width: 100%;
 }
-#buscadorContenedor>input{
+#buscadorContenedor input{
   width: 100%;
   padding: 7px;
   border: 2px solid lightgray;
